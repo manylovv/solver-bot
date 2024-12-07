@@ -2,6 +2,9 @@
   "name": "solver-bot",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "bun build src --target node --outdir dist"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
