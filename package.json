@@ -1,0 +1,17 @@
+{
+  "name": "solver-bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.33.0",
+    "ts-dedent": "^2.2.0"
+  }
+}
