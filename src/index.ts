@@ -106,6 +106,8 @@ async function greeting(conversation: MyConversation, ctx: MyContext) {
       reply_markup: inlineKeyboard,
     });
   } catch (error) {
+    console.error(error);
+
     await ctx.reply(
       dedent`
         что-то пошло не так 😭
